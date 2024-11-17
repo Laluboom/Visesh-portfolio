@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="head" class="head container">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="Images/Visesh-Akbari.png">
+</head>
+
+<body>
+    <div id="MainContent" style="display: block;">
+        <header>
+            <a href="#" class="logo-holder">
+                <div class="logo">L</div>
+                <div class="logo-text">Portfolio Website</div>
+            </a>
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Skills" onclick="scrollToSection(event, 'Skills');">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#Projects" onclick="scrollToSection(event, 'Projects');">Projects</a>
+                    </li>
+                    <!-- <li>
+                        <a href="#" class="dark-mode-toggle">Dark Mode</a>
+                    </li> -->
+                    <li>
+                        <a href="#" class="ContactFormButton" id="ContactFormLink">Contact Form</a>
+                    </li>
+                </ul>
+                <a id="mobile-menu-toggle" href="#" class="mobile-toggle" onClick="toggleMobileMenu(event);">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                            d="M5 7h14M5 12h14M5 17h10" />
+                    </svg>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <section class="hero container">
+                <div class="hero-blue">
+                    <div>
+                        <h1><small>Hi, I'm</small>
+                            Visesh Akbari
+                        </h1>
+                        <p>
+                            A Mathematics with Data Science undergraduate at City University London, skilled in
+                            SolidWorks,
+                            AutoCAD, Inventor, and robotics, with practical experience in production operations and
+                            quality
+                            testing. Proficient in Python programming, HTML, CSS, and JavaScript, and adept at utilizing
+                            cutting-edge technologies to enhance operational efficiency. <span>Strong expertise in
+                                technical
+                                communication ensures effective collaboration and clear articulation of complex ideas
+                                across
+                                teams and stakeholders.</span>
+                        </p>
+                        <div class="call-to-action">
+                            <a href="Files/Visesh Akbari Resume.pdf" class="button
+                        black">
+                                Download Resume
+                            </a>
+                            <a href="mailto:viseshakbari@gmail.com?subject=Query&body=Please%20provide%20your%20message%20here."
+                                class="button white">
+                                Mail Me
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Laluboom" target="_blank" rel="noopener noreferrer">
+                                <img src="Images/Github-Logo.png" alt="github" width="48">
+                            </a>
+                            <a href="https://www.linkedin.com/in/viseshakbari/" target="_blank"
+                                rel="noopener noreferrer">
+                                <img src="Images/LinkedIn-Logo.png" alt="linkedin" width="48">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-yellow">
+                    <img src="Images/Visesh-Akbari.png" alt="Visesh-Akbari" width="100%">
+                </div>
+            </section>
+            <section class="logos container">
+                <div class="marquee">
+                    <div class="track">
+                        <img src="Images/HTML-Logo.png" alt="HTML" width="128" height="128" />
+                        <img src="Images/CSS-Logo.png" alt="CSS" width="128" height="128" />
+                        <img src="Images/JavaScript-Logo.png" alt="JavaScript" width="128" height="128" />
+                        <img src="Images/Python-Logo.png" alt="Python" width="128" height="128" />
+                        <img src="Images/SolidWorks-Logo.png" alt="SolidWorks" width="180" height="128" />
+                        <img src="Images/AutoCAD-Logo.png" alt="AutoCAD" width="128" height="128" />
+                        <img src="Images/Inventor-Logo.png" alt="Inventor" width="128" height="128" />
+                        <img src="Images/VScode-Logo.png" alt="VScode" width="128" height="128" />
+                        <img src="Images/Arduino-Logo.png" alt="Arduino" width="180" height="128" />
+                        <img src="Images/MakerBot-Logo.png" alt="MakerBot" width="128" height="128" />
+                        <img src="Images/MicrosoftApps-Logo.png" alt="Microsoft Apps" width="128" height="128" />
+                        <img src="Images/RaspberryPI-Logo.png" alt="Raspberry" width="128" height="128" />
+                        <img src="Images/HTML-Logo.png" alt="HTML" width="128" height="128" />
+                        <img src="Images/CSS-Logo.png" alt="CSS" width="128" height="128" />
+                        <img src="Images/JavaScript-Logo.png" alt="JavaScript" width="128" height="128" />
+                        <img src="Images/Python-Logo.png" alt="Python" width="128" height="128" />
+                        <img src="Images/SolidWorks-Logo.png" alt="SolidWorks" width="180" height="128" />
+                        <img src="Images/AutoCAD-Logo.png" alt="AutoCAD" width="128" height="128" />
+                        <img src="Images/Inventor-Logo.png" alt="Inventor" width="128" height="128" />
+                        <img src="Images/VScode-Logo.png" alt="VScode" width="128" height="128" />
+                        <img src="Images/Arduino-Logo.png" alt="Arduino" width="180" height="128" />
+                        <img src="Images/MakerBot-Logo.png" alt="MakerBot" width="128" height="128" />
+                        <img src="Images/MicrosoftApps-Logo.png" alt="Microsoft Apps" width="128" height="128" />
+                        <img src="Images/RaspberryPI-Logo.png" alt="Raspberry" width="128" height="128" />
+                    </div>
+                </div>
+            </section>
+            <section id="Skills" class="skills container">
+                <h2>
+                    <small>About Me</small>
+                    Skills
+                </h2>
+                <div class="holder-blue">
+                    <div class="left-column">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>...</li>
+                            <li>AutoCAD</li>
+                            <li>...</li>
+                            <li>...</li>
+                        </ul>
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>...</li>
+                            <li>...</li>
+                            <li>...</li>
+                            <li>Python</li>
+                            <li>SolidWorks</li>
+                            <li>...</li>
+                            <li>Inventor</li>
+                        </ul>
+                    </div>
+                    <div class="right-column">
+                        <h3>A bit about me</h3>
+                        <p>
+                            First-year Mathematics with Data Science student at City University London, passionate about
+                            exploring the universe through the lens of philosophy, robotics, and data science. With a
+                            background in robotics and web development (Python,HTML, CSS, JavaScript), I aim to bridge
+                            technology with my deep passion for math and philosophical insight for innovative solutions
+                            and
+                            lasting prosperity. Aspiring to pursue a
+                            PhD and contribute to the world of research and development that can make a significant
+                            impact
+                            on society. Currently working on exploring AI functionalities with raspberry pi.
+                        </p>
+                        <p>
+                            I have currently made a customized AI chatbot using Python. I plan to make add jarvis like
+                            functionality in my life and automatate it.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="work-experience container">
+                <h2>
+                    <small>Recent</small>
+                    Work Experience
+                </h2>
+                <div class="jobs">
+                    <article>
+                        <figure>
+                            <div>
+                                <img src="Images/Workplace1.png" alt="Workplace" width="100%" />
+                                <figcaption>
+                                    Workplace - 1
+                                </figcaption>
+                            </div>
+                        </figure>
+                        <h3>Workplace - 1</h3>
+                        <div>2000-2020</div>
+                        <p>This is an example description for a workplace.</p>
+                    </article>
+                    <article>
+                        <figure>
+                            <div>
+                                <img src="Images/Workplace2.png" alt="Workplace" width="100%" />
+                                <figcaption>
+                                    Workplace - 2
+                                </figcaption>
+                            </div>
+                        </figure>
+                        <h3>Workplace - 2</h3>
+                        <div>2000-2020</div>
+                        <p>This is an example description for a workplace.</p>
+                    </article>
+                    <article>
+                        <figure>
+                            <div>
+                                <img src="Images/Workplace3.png" alt="Workplace" width="100%" />
+                                <figcaption>
+                                    Workplace - 3
+                                </figcaption>
+                            </div>
+                        </figure>
+                        <h3>Workplace - 3</h3>
+                        <div>2000-2020</div>
+                        <p>This is an example description for a workplace.</p>
+                    </article>
+                </div>
+            </section>
+            <section id="Projects" class="bento container">
+                <h2>
+                    <small>
+                        Previous
+                    </small>
+                    Completed Projects
+                </h2>
+                <div class="bento-grid">
+                    <a href="#" class="bento-item">
+                        <img src="Images/Bento1.png" alt="Project-1" width="100%" />
+                    </a>
+                    <a href="#" class="bento-item">
+                        <img src="Images/Bento2.png" alt="Project-2" width="100%" />
+                    </a>
+                    <a href="#" class="bento-item">
+                        <img src="Images/Bento3.png" alt="Project-3" width="100%" />
+                    </a>
+                    <a href="#" class="bento-item">
+                        <img src="Images/Bento4.png" alt="Project-4" width="100%" />
+                    </a>
+                    <a href="#" class="bento-item">
+                        <img src="Images/Bento5.png" alt="Project-5" width="100%" />
+                    </a>
+                    <a href="#" class="bento-item">
+                        <img src="Images/Bento6.png" alt="Project-6" width="100%" />
+                    </a>
+                </div>
+            </section>
+            <section class="chatbot container">
+                <h2>
+                    <small>
+                        Talk to me
+                    </small>
+                    ChatBot
+                </h2>
+                <div class="chatbot-blue">
+                    <div class="chatbot-info">
+                        <h3 class="chatbot-info-title">AI Chatbot</h3>
+                        <p>
+                            I have made a customized AI chatbot using Python and free cloud computation provided by
+                            Krutim AI
+                            It is currently a friendly AI chatbot that you can chat with.
+                            <!-- Krutim AI. You can use it to get a better idea about me as a person and to get a better idea
+                            of what I have done. -->
+                        </p>
+                        <p>
+                            Feel free to download my resume here. I'm actively seeking new opportunities, so if you have
+                            a role or project you think I’d be a great fit for, please reach out via email. I’m also
+                            open to collaborating on exciting projects. Let’s connect on LinkedIn!
+                        </p>
+                        <a id="chatbot-info-resume-link" href="Files/Visesh Akbari Resume.pdf" class="button black">
+                            Download Resume</a>
+                    </div>
+                    <div class="chat-box">
+                        <div class="scroll-area">
+                            <ul id="chat-log">
+                                <li>
+                                    <span class="avatar bot">AI</span>
+                                    <div class="message">
+                                        Hi, I'm a friendly AI chatbot that you can use to get a better idea about me.
+                                        How can I help you know Visesh better?
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="avatar user">User</span>
+                                    <div class="message">
+                                        I have a question to ask about you.
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="chat-message">
+                            <input name="user-input-box" type="text"
+                                placeholder="Hey Visesh, what experiences do you have?">
+                            <button class="button black">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </div>
+    <div id="ContactFormOverlay" style="display: none;">
+        <section id="ContactForm" class="ContactForm container">
+            <div class="form-container">
+                Contact Form
+            </div>
+            <span class="close-button">&#x21A9;</span>
+            <form id="myForm">
+                <div class="form-group">
+                    <div class="input-data">
+                        <input name="Name" id="name" type="text" required>
+                        <div class="underline"></div>
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-data">
+                        <input name="Email" id="email" type="text" required>
+                        <div class="underline"></div>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-data">
+                        <input name="Subject" id="subject" type="text" required>
+                        <div class="underline"></div>
+                        <label for="">Subject</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="input-data textarea">
+                        <textarea rows="8" cols="80" required></textarea>
+                        <br />
+                        <div class="underline"></div>
+                        <label for="">Message</label>
+                        <br />
+                        <div class="form-group submit-button">
+                            <div class="input-data">
+                                <div class="inner"></div>
+                                <button type="submit">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button id="clearCacheButton">Clear Form Cache</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>Thank you for visiting</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
