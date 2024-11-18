@@ -3,6 +3,7 @@ var contactLink = document.getElementById("ContactFormLink");
 var closebutton = document.getElementsByClassName("close-button")[0];
 var MainContent = document.getElementById("MainContent");
 var DarkModeButton = document.getElementsByClassName("dark-mode-toggle")[0];
+var sendbutton = document.getElementById("send-button");
 
 contactLink.addEventListener("click", function (event) {
     event.preventDefault();
@@ -54,3 +55,7 @@ function setScrollAreaMaxHeight() {
 window.onload = setScrollAreaMaxHeight;
 window.onresize = setScrollAreaMaxHeight;
 
+sendbutton.addEventListener("click", function () {
+    console.log("Button clicked");
+    generateStatement();
+});
